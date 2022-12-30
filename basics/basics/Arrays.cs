@@ -10,16 +10,7 @@ namespace basics
     {
         public void Getoutput()
         {
-            //string[] Car = new string[3]("baleno", "swift", "maruti");
-
-            string[] Cars = new string[3] { "beleno", "swift", "maruti" };
-
-            foreach (string car in Cars)
-            {
-                Console.WriteLine(car);
-                // Console.ReadLine();
-            }
-            Console.ReadLine();
+           
         }
     }
 }
