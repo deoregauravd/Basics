@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace basics
 {
-    internal class Program
+    internal class Arrays
     {
-        public static void Main(string[] args)
+        public void Getoutput()
         {
             //string[] Car = new string[3]("baleno", "swift", "maruti");
 
@@ -17,7 +17,7 @@ namespace basics
             foreach (string car in Cars)
             {
                 Console.WriteLine(car);
-               // Console.ReadLine();
+                // Console.ReadLine();
             }
             Console.ReadLine();
         }
